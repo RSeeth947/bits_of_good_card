@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    background-color: #00274c;
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+.content {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.profile-pic {
+    justify-content: center;
+    width: 128px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.text-box {
+    background-color: rgb(31, 30, 30);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add box shadow */
+    border-right: #9a3324;
+    border-bottom: #9a3324;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.text-box:hover {
+    background-color: #2f65a7 ;
+    transform: scale(1.1);
+}
+
+.text {
+    padding: 0.75rem;
+   
+    color: #ffcb05;
+}
